@@ -1,15 +1,13 @@
-
-import './App.css'
-import Navigation from './components/Navigation/Navigation';
+import React from 'react';
+import './App.css';
+import ContactHeader from './components/ContactHeader/ContactHeader';
 
 function App() {
-
-
-  return(
-  <div>
-    <Navigation />
-  </div>
+  return (
+    <div>
+      <ContactHeader />
+    </div>
   );
 }
 
-export default App
+export default App;
